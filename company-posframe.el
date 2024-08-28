@@ -476,7 +476,8 @@ just grab the first candidate and press forward."
                   :width width
                   :min-width width
                   :min-height height
-                  :height height
+                  :height height                  
+                  :font company-posframe-font
                   :background-color (face-attribute 'company-posframe-quickhelp :background nil t)
                   :foreground-color (face-attribute 'company-posframe-quickhelp :foreground nil t)
                   company-posframe-quickhelp-show-params)))))))
