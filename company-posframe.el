@@ -331,7 +331,8 @@ be triggered manually using `company-posframe-quickhelp-show'."
            :poshandler-extra-info
            (list :company-margin margin
                  :company-prefix-length (length company-prefix))
-           company-posframe-show-params)))
+           company-posframe-show-params)
+    (company-posframe-quickhelp-set-timer)))
 
 (defun company-posframe-hide ()
   "Hide company-posframe candidate menu."
